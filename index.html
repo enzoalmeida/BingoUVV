@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bingo</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Bingo</h1>
+    </header>
+
+    <main>
+        <section id="bingo-game">
+            
+            <form id="participant-form">
+                <label for="participant-name">Nome do Participante:</label>
+                <input type="text" id="participant-name">
+                <button type="button" onclick="addParticipant()">Adicionar</button>
+            </form>
+            <div id="bingo-cards"></div>
+            <button id="start-bingo" onclick="startBingo()">Iniciar Bingo</button>
+           
+        </section>
+        <section id="bingo-board">
+            <h2>Números Sorteados</h2>
+            <ul id="drawn-numbers"></ul>
+        </section>
+        <section id="winner-message"></section>
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

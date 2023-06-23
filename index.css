@@ -1,0 +1,90 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://s1.1zoom.me/big0/638/Milky_Way_Sky_Night_447884.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  header {
+   color: aliceblue;
+    padding: 5px;
+    text-align: center;
+    top: 100px;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  #bingo-game {
+    margin-bottom: 20px;
+  }
+  
+  #bingo-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 600px;
+  }
+  
+  .bingo-card {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #fffdfd;
+    margin-right: 10px;
+    margin-bottom: 10px;;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bingo-card .bingo-numbers div.disabled {
+  
+    cursor: default;
+  }
+  
+  #drawn-numbers {
+    color: aliceblue;
+    width: 1400px;
+    height: 2000;
+    columns: 10vh;
+    justify-content: center;
+    align-items: center;
+    background-image: inherit;
+    background-repeat: inherit;
+    background-size: inherit;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    height: 10vh;
+    position: absolute;
+   
+    
+    width: 450px;
+    height: 200px;
+    left: 500px;
+    top: 2px;
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h3 {
+    color: aliceblue;
+  }
+  
+  table {
+    color: aliceblue;
+  }
+  h2{
+    color: aliceblue;
+  }
+  section{
+    color: aliceblue;
+  }
